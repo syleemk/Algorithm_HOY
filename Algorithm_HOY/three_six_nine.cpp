@@ -16,29 +16,33 @@ int main()
 
 	for (int i = 1; i <= pNum; i++) { // 플레이어 이름 입력 동적할당하여 받음
 		player[i%pNum] = (char*)malloc(sizeof(char) * 20);
+		printf("플레이어 %d 이름 입력 : ", i);
 		gets_s(player[i%pNum], sizeof(char)*20);
 	}
 
 	char str[10]; 
-	bool clap;
+	int clapCount = 0;
 
 	for (int i = 1; i <= endNum; i++) {
 		sprintf(str, "%d", i); // 숫자를 문자열로 전환	
 
 		int k = 0;
+		clapCount = 0;
 		while (str[k] != '\0') {
-			clap = false;
 			if (str[k] == '3' || str[k] == '6' || str[k] == '9') {
-				clap = true;
-				break;
+				clapCount++;
 			}
 			k++;
 		}
-		if (clap == true) {
-			printf("%s : 짝! \n", player[i%pNum]);
+		if (clapCount == 0) {
+			printf("%s : %d \n", player[i%pNum], i);
 		}
 		else {
-			printf("%s : %d \n", player[i%pNum], i);
+			printf("%s : ", player[i%pNum]);
+			for (int j = 0; j < clapCount; j++) {
+				printf("짝!");
+			}
+			printf("\n");
 		}
 	}
 

@@ -16,6 +16,21 @@
     <Filter Include="소스 파일\190905">
       <UniqueIdentifier>{f38b1622-da5d-4010-b3f3-e1c96a80909f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\190910">
+      <UniqueIdentifier>{26a3e590-bb0a-4ecd-835e-54510907dc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\190917">
+      <UniqueIdentifier>{55c5f58d-d059-4380-aff1-35d23bda8eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\190926">
+      <UniqueIdentifier>{61a5ea69-f07c-4dac-a8a2-d86b4136bfda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\191017">
+      <UniqueIdentifier>{ed9e41d9-c21d-4e1b-b277-c284052adfee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\leftclass">
+      <UniqueIdentifier>{497d746f-7210-4fd7-af3a-b84cf573cdc8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="number5.cpp">
@@ -24,5 +39,49 @@
     <ClCompile Include="three_six_nine.cpp">
       <Filter>소스 파일\190905</Filter>
     </ClCompile>
+    <ClCompile Include="flowchartCoding.cpp">
+      <Filter>소스 파일\190910</Filter>
+    </ClCompile>
+    <ClCompile Include="highest100.cpp">
+      <Filter>소스 파일\190910</Filter>
+    </ClCompile>
+    <ClCompile Include="jaeman.cpp">
+      <Filter>소스 파일\190910</Filter>
+    </ClCompile>
+    <ClCompile Include="q3.cpp">
+      <Filter>소스 파일\190917</Filter>
+    </ClCompile>
+    <ClCompile Include="xyzn.cpp">
+      <Filter>소스 파일\190926</Filter>
+    </ClCompile>
+    <ClCompile Include="TSP.cpp">
+      <Filter>소스 파일\190926</Filter>
+    </ClCompile>
+    <ClCompile Include="knapsack.cpp">
+      <Filter>소스 파일\190926</Filter>
+    </ClCompile>
+    <ClCompile Include="jobAssignment.cpp">
+      <Filter>소스 파일\190926</Filter>
+    </ClCompile>
+    <ClCompile Include="teamtimetable.cpp">
+      <Filter>소스 파일\191017</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>소스 파일\leftclass</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\leftclass</Filter>
+    </ClCompile>
+    <ClCompile Include="heapsort.cpp">
+      <Filter>소스 파일\leftclass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="function.h">
+      <Filter>소스 파일\leftclass</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>소스 파일\leftclass</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

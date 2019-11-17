@@ -10,10 +10,7 @@ int main()
 
 	for (int i = 0; i < 500; i++) {
 		arr[i] = rand() % 1000001;
-		printf("%d ", arr[i]);
-	}
-
-	printf("\n\n");	
+	}	
 	
 	int index;
 
@@ -31,12 +28,6 @@ int main()
 		arr[i] = arr[index];
 		arr[index] = temp;
 	}
-
-	for (int i = 0; i < 500; i++) {
-		printf("%d ", arr[i]);
-	}
-
-	printf("\n\n");
 
 	printf("%d\n", arr[4]);
 
