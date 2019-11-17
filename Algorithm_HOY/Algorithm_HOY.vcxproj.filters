@@ -66,14 +66,17 @@
     <ClCompile Include="teamtimetable.cpp">
       <Filter>소스 파일\191017</Filter>
     </ClCompile>
-    <ClCompile Include="Function.cpp">
-      <Filter>소스 파일\leftclass</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일\leftclass</Filter>
     </ClCompile>
-    <ClCompile Include="heapsort.cpp">
+    <ClCompile Include="function.cpp">
       <Filter>소스 파일\leftclass</Filter>
+    </ClCompile>
+    <ClCompile Include="heapsort.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="changeCoin.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
