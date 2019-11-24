@@ -1,9 +1,9 @@
 #include <cstdio>
 
-#define itemNum 4
+#define itemNum 5
 
 int max = -1;
-const int maxW = 10;
+const int maxW = 55;
 
 class Item {
 public:
@@ -13,7 +13,7 @@ public:
 	int value;
 };
 
-Item arr[itemNum] = { Item(7,42), Item(3,12), Item(4,40), Item(5,25) };
+Item arr[itemNum] = { Item(20,25), Item(15,30), Item(30,45), Item(20,30), Item(15,35) };
 
 void knapsack(int currentN, int currentW, int currentV) {
 	if(currentW <= maxW)
